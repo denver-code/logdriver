@@ -13,8 +13,12 @@ git clone https://github.com/denver-code/logdriver.git
  ```
 
 2. **Move the logdriver** folder to your project's root or utils directory.
-
-3. **Import the library**: Import the library into your project using the following command:
+3. **Install dependencies** 
+```bash
+poetry add requests
+pip install requests
+```
+4. **Import the library**: Import the library into your project using the following command:
 
 ```python
 import logdriver
